@@ -11,8 +11,8 @@ android {
         applicationId = "ru.mrapple100.apkautoupdate"
         minSdk = 27
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 10
+        versionName = "1.10"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -50,8 +50,8 @@ android {
 }
 
 dependencies {
-    implementation(project(":appupdate"))
 
+    implementation("com.squareup.okhttp3:okhttp:3.2.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

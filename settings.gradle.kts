@@ -21,5 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "ApkAutoUpdate"
 include(":app")
-include(":appupdate")
- 
